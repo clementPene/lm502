@@ -1,0 +1,17 @@
+[package]
+name = "lm502"
+description = "A driver for LM502 LoraWAN module to create communication between it and a micro using serial"
+version = "0.1.0"
+authors = ["Clement Pene <clement.pene@sii.fr>"]
+edition = "2021"
+license = "0BSD"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+embedded-hal = "0.2.7"
+
+
+[workspace]
+members = ["example-stm32f103-rb"]
+
